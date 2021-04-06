@@ -18,7 +18,7 @@ image1 = image1. resize((400, 500), Image. ANTIALIAS)
 bg1=ImageTk.PhotoImage(image1)
 bag1=Label(win,image=bg1).place(x=100,y=100)
 
-# from
+# form
 frame=Frame(win,bg='white')
 frame.place(x=501,y=102,width=700,height=502)
 tittle=Label(frame,text="Registration Here", font=("times new roman", 20 ,'bold'),bg='white',fg='green')
